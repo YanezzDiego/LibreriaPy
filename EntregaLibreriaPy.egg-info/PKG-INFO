@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: EntregaLibreriaPy
+Version: 0.0.1
+Summary: Esta librería es el entregable para el curso de Software Matemático Estadístico. Contiene funciones que permiten gestionar data sets
+Home-page: https://github.com/YanezzDiego/LibreriaPy
+Author: Diego Yáñez
+Author-email: dyanez001@ikasle.ehu.eus
+License: MIT
+License-File: LICENSE.txt
+Requires-Dist: pandas>=0.25.1
+Requires-Dist: matplotlib>=3.1.1
+Requires-Dist: numpy>=1.17.2
+Requires-Dist: seaborn>=0.9.0
+
+La librerÃ­a **EntregaLibreriaPy** contiene 5 funciones que permiten gestionar *data sets*.
+
+- **CalcularMetricas**: Esta funciÃ³n entrega una lista con las mÃ©tricas de AUC, varianza y entropÃ­a de las variables de un *dataframe*. AdemÃ¡s, entrega la posibilidad de poder graficar AUC con respecto a la variable y.
+- **Correlacion_InfoMutua**: Esta funciÃ³n entrega una matriz de correlaciones/ganancia de informaciÃ³n para las variables numÃ©ricas y categÃ³ricas respectivamente. AdemÃ¡s, entrega la opciÃ³n de poder graficar estas matrices.
+- **Discretizacion**: Esta funciÃ³n permite discretizar por los mÃ©todos *Equal Frequency* y *Equal Width* las variables de un *dataset*, obteniendo las categorÃ­as y los puntos de corte de los intervalos.
+- **FiltradoDataSetMetricas**: Esta funciÃ³n permite filtrar un *dataset* por las mÃ©tricas AUC, varianza y entropÃ­a. Requiere que el *dataset* sea completamente numÃ©rico o completamente categÃ³rico.
+- **NormalizacionEstandarizacion**: Esta funciÃ³n permite aplicar tÃ©cnicas de transformaciÃ³n de datos.

@@ -80,5 +80,3 @@ def calcular_metricas(data, clase=None, include=True, only_categorical=False, pl
 
     return resultados
 
-
-

@@ -1,0 +1,17 @@
+LICENSE.txt
+README.txt
+setup.py
+EntregaLibreriaPy/CalcularMetricas.py
+EntregaLibreriaPy/Cor_InfoMutua.py
+EntregaLibreriaPy/DiscretizePY.py
+EntregaLibreriaPy/FiltradoDataSetMetricas.py
+EntregaLibreriaPy/NormalizacionEstandarizacion.py
+EntregaLibreriaPy/__init__.py
+EntregaLibreriaPy.egg-info/PKG-INFO
+EntregaLibreriaPy.egg-info/SOURCES.txt
+EntregaLibreriaPy.egg-info/dependency_links.txt
+EntregaLibreriaPy.egg-info/requires.txt
+EntregaLibreriaPy.egg-info/top_level.txt
+EntregaLibreriaPy/test/__init__.py
+EntregaLibreriaPy/test/tempCodeRunnerFile.py
+EntregaLibreriaPy/test/test_all.py
